@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Questions:"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:text="Question:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/linear1"
+        >
+
+        <Button
+            android:id="@+id/Ans1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer1"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/Ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer1"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/Ans3"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer1"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/Ans4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer1"
+
+            >
+
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="406dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/linear1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="146dp"
+        android:text="SUBMIT"
+        android:textSize="26sp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+</RelativeLayout>
